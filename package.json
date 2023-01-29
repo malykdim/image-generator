@@ -1,5 +1,5 @@
 {
-  "name": "ai-image-generator",
+  "name": "openai-image-generator",
   "version": "1.0.0",
   "description": "openai-image-generator",
   "main": "index.js",
