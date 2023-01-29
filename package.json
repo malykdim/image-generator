@@ -7,6 +7,10 @@
     "start": "node index",
     "dev": "nodemon index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malykdim/openai-image-generator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
