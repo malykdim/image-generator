@@ -12,7 +12,7 @@
     "url": "git+https://github.com/malykdim/openai-image-generator.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "AK",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
