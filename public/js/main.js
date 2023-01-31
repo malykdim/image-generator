@@ -1,3 +1,4 @@
+
 function onSubmit (e) {
     e.preventDefault();
     
@@ -17,6 +18,7 @@ function onSubmit (e) {
 }
 
 async function generateImageRequest(prompt, size) {
+    
     try {
         showSpinner();
         
@@ -44,6 +46,7 @@ async function generateImageRequest(prompt, size) {
         document.querySelector('#image').src = imageUrl;
         
         removeSpinner();
+        
     } catch (error) {
         document.querySelector('.msg').textContent = error;
     }
@@ -56,7 +59,6 @@ function showSpinner() {
 function removeSpinner() {
     document.querySelector('.loader').classList.remove('show');
 }
-
 
 
 document.querySelector('#image-form').addEventListener('submit', onSubmit);

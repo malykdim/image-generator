@@ -1,13 +1,13 @@
 /* Spinner from: https://cssloaders.github.io/ */
 
-.show {
+.loader.show {
     display: block;
 }
 
 .loader {
-    width: 48px;
-    height: 48px;
-    display: inline-block;
+    width: 148px;
+    height: 148px;
+    display: none;
     position: relative;
 }
 
@@ -15,10 +15,10 @@
 .loader::before {
     content: '';  
     box-sizing: border-box;
-    width: 48px;
-    height: 48px;
+    width: 148px;
+    height: 148px;
     border-radius: 50%;
-    border: 2px solid #F9B64D;
+    border: 2px solid #08795c;
     position: absolute;
     left: 0;
     top: 0;
